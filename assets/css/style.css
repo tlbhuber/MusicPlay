@@ -1,0 +1,57 @@
+/* GLOBAL */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: lemonchiffon;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Staatliches', cursive;
+}
+a {
+    color: #e53935;
+}
+.material-icons {
+ vertical-align: middle;
+}
+
+/* NAVIGATION */
+nav {
+    background-color: black;
+    margin-bottom: 60px;
+
+}
+/* BUTTONS */
+.main-btn {
+
+}
+/* Trending */
+#trend-title{
+    text-align: center;
+}
+
+/* Search Results */
+.youtubeThumb {
+    margin-right: 10px;
+    float: left;
+}
+.lyrics {
+    font-size: 12px;
+}
+.music-display {
+    display: block;
+    margin: 10px 0;
+}
+footer {
+    /* margin-inline-start: %; */
+    background-color: black;
+    color: rgb(247, 217, 48);
+    padding: 10px;
+    object-fit: cover;
+    text-align: right;
+    bottom: 0;
+    width: 100%
+}
